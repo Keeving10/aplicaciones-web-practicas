@@ -7,4 +7,5 @@ Listas desordenadas
 - Elemento Yo
 
 [Pa ver la Liga] (https://www.marca.com/)
-![Lamin Yiamal] (https://www.ole.com.ar/images/2025/10/26/3hcMxXdOM_720x0__1.jpg)
+![El Pou] (<img width="414" height="348" alt="image" src="https://github.com/user-attachments/assets/4af1d951-f017-49c5-b932-357c99b8bace" />
+)
