@@ -8,4 +8,4 @@
 
 ¡¡Algunos Usuarios Tienen Que Reinstalar Ultima Version VirtualBox!!
 
-5.Seguimos los pasos para su instalación en español (Seleccionar la casilla SSH para instalar) y reiniciar la maquina virtual
+5. Seguimos los pasos para su instalación en español (Seleccionar la casilla SSH para instalar) y reiniciar la maquina virtual
