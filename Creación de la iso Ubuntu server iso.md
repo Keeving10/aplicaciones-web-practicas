@@ -7,3 +7,5 @@
 4. Despues colocar la RAM necesarria y lo demas para el sistema, recomendable 2Gb ram , 2 procesadores y 25 Gb de almacenamiento.
 
 ¡¡Algunos Usuarios Tienen Que Reinstalar Ultima Version VirtualBox!!
+
+5.Seguimos los pasos para su instalación en español (Seleccionar la casilla SSH para instalar) y reiniciar la maquina virtual
