@@ -5,6 +5,7 @@
 3. Comprobamos que esta funcionando con el comando Systemctl status apache2
 4. Una vez este Active estara funcionando correctamente y podremos ver sus contenidos
 5. Entramos a /etc/apache2 para despues ver sus archivos improtantes con el comando ls.Podremos ver archivos como sites-available (Sitios web disponibles para activar), sites-enables (Sitios web activados), ports.conf (numeros de puertos )
-6. 
-7. Prestaremos antención a sites-available para editar con sudo nano el archivo /var/www/html/index.html
-8. 
+7. Prestaremos antención a sites-available para editar con sudo nano el archivo /var/www/html/index.html para editar el contenido de este html. Como por ejemplo que va a salir, por que puerto va a salir etc..
+
+## Configuración de puertos
+1. Crear la carpeta y paginas con el comando mkdir 
