@@ -3,8 +3,7 @@
 
 1. Primer paso: creación de las páginas y carpetas con los siguientes comandos en apache2 
 sudo mkdir -p /var/www/smr/web /var/www/smr/intranet
-echo "<h1>Bienvenidos a SMR</h1>" | sudo tee /var/www/smr/web/index.html
-echo "<h1>Intranet de SMR</h1>" | sudo tee /var/www/smr/intranet/intranet.html
+
 
 2. Crearemos el usuario de la intranet instalando el apache2-utils con el comando
    sudo apt apache2-utils -y
