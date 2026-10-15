@@ -2,13 +2,16 @@
 ##¿Qué es una base de datos?##
 Es como un archivador muy ordenado donde un programa guarda su información para
 poder encontrarla y usarla rápido, organizada en tablas, columnas y filas
+
 ## ¿Para qué la necesita WordPress? ##
 WordPress guarda en la base de datos todo lo que no son ficheros:
 entradas, las páginas, los comentarios, los usuarios y la configuración del sitio. Cada vez que alguien visita la
-web, WordPress le pide los datos a la base de datos. 
+web, WordPress le pide los datos a la base de datos.
+
 ## ¿Qué es MariaDB? ##
 Es el programa que gestiona la base de datos: la guarda, la protege y responde a las
 peticiones. Es la que viene en los repositorios de Ubuntu y funciona muy bien con WordPress.
+
 # CAPTURA ACTIVE APACHE2 #
 <img width="593" height="116" alt="image" src="https://github.com/user-attachments/assets/a4a8ffbc-112d-45a3-83e6-2596ea8edcab" />
 
@@ -25,3 +28,9 @@ y mariadb-client es la herramienta para conectarse a ese motor con comandos.
 
 <img width="647" height="200" alt="image" src="https://github.com/user-attachments/assets/841bf555-aa7a-4580-ac63-72df155ad657" />
 
+## ¿Qué diferencia hay entre active (running) y enabled? ¿Qué pasaría con la web de WordPress si
+MariaDB estuviera active pero no enabled y se reiniciara el servidor? ##
+Cuando esta en active significa que el programa está encendido ahora mismo.
+Cuando sale enabled significa que el programa tiene permiso para encenderse solo cuando reinicias el ordenador.
+Si MariaDB no esta en active pero no enabled tu web se va a romper y mostrará el famoso cartel de "Error al establecer una conexión con la base de datos".
+Al reiniciar el servidor, MariaDB se apaga. Como no lo dejaste en enabled, el servidor arranca pero la base de datos se queda durmiendo. WordPress intentará cargar, no encontrará tus datos y fallará.
