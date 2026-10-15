@@ -2,7 +2,7 @@
 ## Caracteristicas Definición ##
 
 Podemos decir que VirtualHost es es una característica que permite alojar múltiples sitios web en un único servidor físico (o máquina virtual).
-racias a los VirtualHosts, Apache diferencia a qué sitio web debe dirigir a un visitante cuando este llega al servidor,
+Gracias a los VirtualHosts, Apache diferencia a qué sitio web debe dirigir a un visitante cuando este llega al servidor,
 ya sea basándose en la dirección IP, el nombre de dominio o el número de puerto.
 
 Todos los VirtualHosts se crean en /etc/apache2/sites-available/.
