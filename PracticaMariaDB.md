@@ -1,5 +1,6 @@
 # MARIADB PRACTICA KEVIN DANIEL QUIZHPE INGA #
-##¿Qué es una base de datos?##
+
+## ¿Qué es una base de datos? ##
 Es como un archivador muy ordenado donde un programa guarda su información para
 poder encontrarla y usarla rápido, organizada en tablas, columnas y filas
 
