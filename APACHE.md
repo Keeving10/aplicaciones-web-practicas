@@ -11,6 +11,7 @@
 - sudo systemctl reload apache2 # aplica cambios de configuración
 - sudo systemctl restart apache2 # para casos de cambios de red/puertos
 - sudo journalctl -u apache2 -f # log del servicio en vivo
+
 9.LISTA DE DIRECTORIOS A TENER EN CUENTA:
 - /etc/apache2/apache2.conf → configuración principal
 - /etc/apache2/sites-available/ → vhosts definidos
