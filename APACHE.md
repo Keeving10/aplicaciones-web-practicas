@@ -10,15 +10,15 @@
 
 5. Entramos a /etc/apache2 para despues ver sus archivos improtantes con el comando ls.Podremos ver archivos como sites-available (Sitios web disponibles para activar), sites-enables (Sitios web activados), ports.conf (numeros de puertos )
 
-7. Prestaremos antención a sites-available para editar con sudo nano el archivo /var/www/html/index.html para editar el contenido de este html. Como por ejemplo que va a salir, por que puerto va a salir etc..
+6. Prestaremos antención a sites-available para editar con sudo nano el archivo /var/www/html/index.html para editar el contenido de este html. Como por ejemplo que va a salir, por que puerto va a salir etc..
 
-8. LISTA COMANDOS A TENER EN CUENTA:
+7. LISTA COMANDOS A TENER EN CUENTA:
 - sudo apachectl configtest # valida sintaxis ANTES de recargar
 - sudo systemctl reload apache2 # aplica cambios de configuración
 - sudo systemctl restart apache2 # para casos de cambios de red/puertos
 - sudo journalctl -u apache2 -f # log del servicio en vivo
 
-9.LISTA DE DIRECTORIOS A TENER EN CUENTA:
+8.LISTA DE DIRECTORIOS A TENER EN CUENTA:
 - /etc/apache2/apache2.conf → configuración principal
 - /etc/apache2/sites-available/ → vhosts definidos
 - /etc/apache2/sites-enabled/ → vhosts activos (enlaces simbólicos)
