@@ -26,6 +26,4 @@
 - /etc/apache2/mods-enabled/ → módulos activos (enlaces simbólicos)
 - /var/www/html/ → raíz de documentos por defecto
 - /var/log/apache2/ → access.log y error.log
-
-## Configuración de puertos
-1. Crear la carpeta y paginas con el comando mkdir 
+  
