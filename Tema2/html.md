@@ -103,7 +103,7 @@ Codigo Completo Corregido
 <p>Tu contraseña debe tener <strong><em>al menos 12 caracteres</em></strong>.</p>
 ```
 
-##A6 ¿Que vera el usuario?
+## A6 ¿Que vera el usuario?
 ```
 <h1>Resumen de la jornada</h1>
 <p>Ha ganado el equipo local.<br>El rival se despide del torneo.</p>
