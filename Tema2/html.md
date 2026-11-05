@@ -69,4 +69,12 @@ Codigo corregido
 ```
 <h1 style="color:red; font-size:40px;">Directo esta noche</h1>
 ```
-2nda Linea se utiliza el signo `=`
+2nda Linea se utiliza el signo `=` para asignar el valor de la propiedad.
+Codigo corregido
+```
+<p style="text-align:center;">Estreno de temporada</p>
+```
+3era Linea la etiqueta `<p>` esta mal cerrada, deberia cerrarse con `</p>`
+```
+<p style="background-color:yellow;">Sorteo de una tarjeta gráfica</p>
+```
