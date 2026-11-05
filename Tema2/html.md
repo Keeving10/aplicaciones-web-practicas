@@ -78,3 +78,37 @@ Codigo corregido
 ```
 <p style="background-color:yellow;">Sorteo de una tarjeta gráfica</p>
 ```
+## A5 Comentarios y anidación
+
+```
+<!- Revisar el texto antes de publicar ->
+<p>Tu contraseña debe tener <strong><em>al menos 12
+caracteres</strong></em>.</p>
+```
+1era Linea deberia comenzar con `<!--` y terminar con `--->`
+Corregido
+```
+<!-- Revisar el texto antes de publicar -->
+```
+2nda Linea las etiquetas deberian cerrarse en orden inverso al que se abren, es decir, primero se abre `<strong>`
+y despues `<em>`, asi que deberia cerrarse primero `</em>` y despues `</strong>`
+(extra, para ver la letra ñ se deberia poner la linea `<meta charset="UTF-8">`)
+Corregido
+```
+<strong><em>al menos 12 caracteres</em></strong>
+```
+Codigo Completo Corregido
+```
+<!-- Revisar el texto antes de publicar -->
+<p>Tu contraseña debe tener <strong><em>al menos 12 caracteres</em></strong>.</p>
+```
+
+##A6 ¿Que vera el usuario?
+```
+<h1>Resumen de la jornada</h1>
+<p>Ha ganado el equipo local.<br>El rival se despide del torneo.</p>
+<hr>
+<h4>Próximo partido</h4>
+<p>Sábado a las 18:00</p>
+```
+Deberia verse el titulo grande de `Resumen de la jornada`, despues seguiria el parrafo con las frases Ha ganado el equipo local y el rival se despide del torneo
