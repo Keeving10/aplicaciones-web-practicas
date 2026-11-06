@@ -1,5 +1,6 @@
-# Parte A. Comprobación y reflexión
-## A1 VERDADERO O FALSO (CORREGIR LOS FALSOS)
+# $\textcolor{blue}{\textsf{PARTE A COMPROBACION Y REFLEXION}}$
+
+## $\textcolor{green}{\textsf{A1 VERDADERO O FALSO (CORREGIR LOS FALSOS)}}$
 
 | Nº | Afirmación | V/F |
 |----|------------|-----|
@@ -14,7 +15,7 @@
 | 9  | "Un comentario HTML `(<!-- ... -->)` se muestra en pantalla como una nota gris." | F. Un comentario en HTML nunca se muestra en la pantalla del navegador.
 | 10 | "`<span>` crea un bloque de texto que siempre empieza en una línea nueva." | F. Span no empieza en una nueva linea ni genera saltos de linea automaticos, se mantiene en la misma fila junto a lo que lo rodea
 
-## A2 RELACIONAR ETIQUETA Y EFECTO
+## $\textcolor{orange}{\textsf{A2 RELACIONAR ETIQUETA Y EFECTO}}$
 
 | Etiqueta |  | Efecto |  |
 |----------|--|--------|--|
@@ -26,7 +27,7 @@
 | 6 |  C |F. Texto en superíndice (como en m²)|
 | 7 |  G |G. Texto insertado (se ve subrayado)|
 
-## A3 Caza los errores
+## $\textcolor{blue}{\textsf{A3 Caza los errores}}$
 ```
 <html>
 <head>
@@ -58,7 +59,7 @@
 </html>
 ```
 
-## A4 Estilos rotos
+## $\textcolor{red}{\textsf{A4 Estilos rotos}}$
 ```
 <h1 style="color:red font-size:40px;">Directo esta noche</h1>
 <p style="text-align=center;">Estreno de temporada</p>
@@ -78,7 +79,7 @@ Codigo corregido
 ```
 <p style="background-color:yellow;">Sorteo de una tarjeta gráfica</p>
 ```
-## A5 Comentarios y anidación
+## $\textcolor{green}{\textsf{A5 Comentarios y anidación}}$
 
 ```
 <!- Revisar el texto antes de publicar ->
@@ -103,7 +104,7 @@ Codigo Completo Corregido
 <p>Tu contraseña debe tener <strong><em>al menos 12 caracteres</em></strong>.</p>
 ```
 
-## A6 ¿Que vera el usuario?
+## $\textcolor{blue}{\textsf{A6 ¿Que vera el usuario?}}$
 ```
 <h1>Resumen de la jornada</h1>
 <p>Ha ganado el equipo local.<br>El rival se despide del torneo.</p>
@@ -111,4 +112,14 @@ Codigo Completo Corregido
 <h4>Próximo partido</h4>
 <p>Sábado a las 18:00</p>
 ```
-Deberia verse el titulo grande de `Resumen de la jornada`, despues seguiria el parrafo con las frases Ha ganado el equipo local y el rival se despide del torneo
+Deberia verse el titulo grande de `Resumen de la jornada`, despues seguiria el parrafo,con lineas separadas por `<br>` con las frases `Ha ganado el equipo local` y `El rival se despide del torneo`, depues `<hr>` nos creara una linea horizontal en todo el ancho de la página. Despues seguiremos con `Proximo partido` y `Sabado a las 18:00`. Todo el texto ocupara el ancho completo de la ventana, alineado a la izquierda, sobre fondo blanco con letra negra
+
+<h1>Resumen de la jornada</h1>
+<p>Ha ganado el equipo local.<br>El rival se despide del torneo.</p>
+<hr>
+<h4>Próximo partido</h4>
+<p>Sábado a las 18:00</p>
+
+# $\textcolor{orange}{\textsf{PARTE B EJERCICIOS GUIADOS}}$
+
+
