@@ -8,3 +8,7 @@
 4. [VirtualHost](https://github.com/Keeving10/aplicaciones-web-practicas/blob/main/VirtualHost.md)
 5. [Un nombre dos webs]()
 6. [Practica MariaDB](https://github.com/Keeving10/aplicaciones-web-practicas/blob/main/PracticaMariaDB.md)
+7. [html_basico_css](https://github.com/Keeving10/aplicaciones-web-practicas/blob/main/Tema2/html_basico_css.md)
+8. [imagenes_y_enlaces](https://github.com/Keeving10/aplicaciones-web-practicas/blob/main/Tema2/imagenes_y_enlaces.md)
+
+   
