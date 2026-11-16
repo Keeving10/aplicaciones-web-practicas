@@ -218,7 +218,7 @@ En esta parte crearemos la plantilla.html y crearemos lo siguiente
 </html>
 ```
 
-$\textcolor{springgreen}{\textsf{B4. El banner del streamer — UD2/B4}}$
+# $\textcolor{springgreen}{\textsf{B4. El banner del streamer}}$
 
 ```html
 <!DOCTYPE html>
@@ -243,6 +243,83 @@ $\textcolor{springgreen}{\textsf{B4. El banner del streamer — UD2/B4}}$
 </body>
 </html>
 ```
+# $\textcolor{blue}{\textsf{B5. Paleta de colores de tu marca}}$
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>B5 - Paleta de colores</title>
+</head>
+<body>
+  <!--
+  PARTE 3 (reflexión):
+  rgb(0, 0, 255) significa: 0 de rojo, 0 de verde y el máximo (255) de azul,
+  o sea AZUL PURO. La pantalla mezcla luz roja, verde y azul (por eso RGB)
+  y cada canal va de 0 a 255.
+  En hsl, el hue (matiz) es un círculo de 0 a 360 grados:
+  - Rojo = hue 0 (también 360)
+  - Verde = hue 120
+  - Azul = hue 240
+  -->
+
+  <h2 style="color:red;">Titular 1 (nombre estándar)</h2>
+  <h2 style="color:rgb(255, 0, 0);">Titular 2 (rgb)</h2>
+  <h2 style="color:#ff0000;">Titular 3 (hex)</h2>
+  <h2 style="color:hsl(0, 100%, 50%);">Titular 4 (hsl)</h2>
+
+  <h2 style="color:orange;">Titular naranja (nombre)</h2>
+  <h2 style="color:rgb(255, 165, 0);">Titular naranja (rgb)</h2>
+  <h2 style="color:#ffa500;">Titular naranja (hex)</h2>
+  <h2 style="color:hsl(39, 100%, 50%);">Titular naranja (hsl)</h2>
+
+  <!-- PARTE 2: comprobada en pantalla, se ven IGUAL -->
+  <h2 style="color:#3cb371;">Este hex es el nombre "mediumseagreen"</h2>
+  <h2 style="color:rgb(238, 130, 238);">Este rgb es el hex #ee82ee ("violet")</h2>
+</body>
+</html>
+```
+
+# $\textcolor{orange}{\textsf{B6. Menú de ramen con tipografías de repuesto}}$
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>B6 - Menú de ramen</title>
+</head>
+<body>
+  <!--
+  PREGUNTA: ¿por qué debe ser fácil de leer el tipo de letra de un sitio web?
+  RESPUESTA: porque si el usuario tiene que hacer esfuerzo para leer, se cansa
+  y se marcha. La legibilidad afecta directamente a cuánto tiempo pasa alguien
+  en tu web y a si entiende la información. Por eso los cuerpos de texto usan
+  fuentes simples (sans-serif normalmente) y se reservan las fuentes
+  llamativas para títulos cortos.
+  -->
+
+  <h1 style="font-family: cursive;">Ramen Kyoto</h1>
+
+  <p style="font-family: Arial, sans-serif;">El auténtico ramen japonés en tu barrio.
+  Caldo 12 horas, fideos frescos y ingredientes de verdad.</p>
+
+  <p style="font-family: 'Courier New', monospace;">
+    Ramen clásico ............ 9,50 €<br>
+    Ramen spicy .............. 10,50 €<br>
+    Ramen veggie ............. 9,00 €
+  </p>
+
+  <p style="font-family: SuperFuenteGuay, fantasy;">Si tienes instalada
+  SuperFuenteGuay verás esto raro; si no, el navegador pasa a la siguiente
+  fuente de la lista (fantasy) y la página NO se rompe.</p>
+</body>
+</html>
+```
+
 
 
 
