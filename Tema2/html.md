@@ -320,7 +320,66 @@ En esta parte crearemos la plantilla.html y crearemos lo siguiente
 </html>
 ```
 
+# $\textcolor{blue}{\textsf{B7.Cartel de festival con span y bordes}}$
 
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>B7 - Cartel del festival</title>
+</head>
+<body>
+  <!--
+  PREGUNTA: ¿qué diferencia hay entre <span> y <p> para destacar parte de un texto?
+  RESPUESTA: <p> es un bloque, empieza en línea nueva y ocupa todo el ancho,
+  mientras que <span> es en línea (inline): marca solo un trozo DENTRO del
+  párrafo sin romper el flujo del texto. Para destacar unas palabras en medio
+  de una frase se usa span, para estructurar párrafos enteros se usa p.
+  -->
+
+  <h1 style="border: 5px solid green;">Festival Sonora Night 2026</h1>
+
+  <p style="border: 3px dotted blue;">Este sábado: conciertos, food trucks y zona chill hasta las 3 AM.</p>
+
+  <p style="background-color: lightpink; border: 5px double red;">Entradas limitadas: ¡no te quedes sin la tuya!</p>
+
+  <p>Actuarán <span style="color: blue; font-size: 200%;">Los Voltios</span>,
+  <span style="color: green; font-size: 200%;">La Sofia Band</span> y muchos
+  más artistas por confirmar.</p>
+</body>
+</html>
+```
+
+# $\textcolor{orange}{\textsf{B8. Etiquetas anidadas: el mensaje urgente}}$
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>B8 - Mensaje urgente</title>
+</head>
+<body>
+  <!--
+  SECUENCIA DE CIERRE: </u></i></b>
+  ¿Por qué? Por la regla LIFO (last in, first out): abrí <b> <i> <u>, así que
+  la última en abrirse es <u> y por tanto la PRIMERA en cerrarse. Las etiquetas
+  se cierran en orden inverso al que se abrieron, como muñecas rusas o como
+  cuando te vistes: te pones camiseta, jersey y abrigo, y te quitas primero
+  el abrigo.
+  -->
+
+  <p><b><i><u>ALERTA: se detectó un intento de phishing dirigido a nuestros usuarios. No abras ningún enlace sospechoso.</u></i></b></p>
+
+  <!-- Versión MAL cerrada para probar qué hace el navegador: -->
+  <p><b><i><u>Mensaje de prueba con cierre cruzado</b></i></u></p>
+</body>
+</html>
+
+```
 
 
 
