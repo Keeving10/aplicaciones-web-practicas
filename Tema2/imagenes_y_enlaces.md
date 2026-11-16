@@ -286,6 +286,7 @@ Versión corregida:
 
 # $\textcolor{springgreen}{\textsf{B6. Mini web de tres páginas}}$
 
+## index . html
 ```html
 <!DOCTYPE html>
 <html lang="es">
@@ -310,3 +311,80 @@ Versión corregida:
 </body>
 </html>
 ```
+## sobre-mi . html
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>Mini web - Sobre mí</title>
+</head>
+<body>
+  <h1>Sobre mí</h1>
+
+  <p>
+    <a href="index.html">Inicio</a> |
+    <a href="sobre-mi.html">Sobre mí</a> |
+    <a href="contacto.html">Contacto</a>
+  </p>
+
+  <p>Soy Kevin Daniel Quizhpe Inga, estudiante de 2.º SMR. Esta página
+  forma parte de mi práctica de enlaces relativos.</p>
+</body>
+</html>
+```
+
+## contacto . html
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>Mini web - Contacto</title>
+</head>
+<body>
+  <h1>Contacto</h1>
+
+  <p>
+    <a href="index.html">Inicio</a> |
+    <a href="sobre-mi.html">Sobre mí</a> |
+    <a href="contacto.html">Contacto</a>
+  </p>
+
+  <p>Puedes escribirme a kevin12.kd89@gmail.com o visitarme en el instituto primera planta.</p>
+
+  <p>Enlace absoluto a una web externa:
+  <a href="https://www.w3.org/" target="_blank">W3C</a></p>
+</body>
+</html>
+```
+## Pregunta: 
+- ¿Qué enlaces dejarían de funcionar si movieras contacto.html a otra carpeta?
+  Si moviese contacto.html a otra carpeta, dejarian de funcionar sus enlaces relativos por que estas se calculan desde la unbicación del archivo actual. El enlace absoluto funcionaria ya que estos no dependen de donde vive el archivo.
+
+# $\textcolor{blue}{\textsf{B7. Tu propia chuleta}}$
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>B7 - Mi chuleta</title>
+</head>
+<body>
+  <h1>Mi chuleta de HTML y CSS</h1>
+
+  <p><a href="chuleta.pdf">Abrir la chuleta en PDF (misma ventana)</a></p>
+
+  <p><a href="chuleta.pdf" target="_blank">Abrir la chuleta en PDF (pestaña nueva)</a></p>
+
+  <p><a href="https://www.w3.org/" target="_blank">Recurso externo: web del W3C</a></p>
+</body>
+</html>
+```
+Pregunta: ¿qué pasa si borras el PDF de la carpeta? El enlace se romperia saldria el error 404 de archivo no encontrado.
