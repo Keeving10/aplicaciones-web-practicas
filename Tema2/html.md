@@ -121,5 +121,129 @@ Deberia verse el titulo grande de `Resumen de la jornada`, despues seguiria el p
 <p>Sábado a las 18:00</p>
 
 # $\textcolor{orange}{\textsf{PARTE B EJERCICIOS GUIADOS}}$
+En esta parte crearemos la plantilla.html y crearemos lo siguiente
+
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Tu nombre">
+  <title>B2 - La noticia del día</title>
+</head>
+<body>
+
+  <h1>¿La IA te quitará el trabajo?</h1>
+  <h2>Los expertos aseguran que cambiará los empleos, pero no los eliminará todos</h2>
+
+  <p>La inteligencia artificial ha pasado de ser ciencia ficción a estar en el móvil
+  de todo el mundo en apenas dos años. Herramientas que redactan textos, generan
+  imágenes y programan código están ya en las empresas.</p>
+
+  <p>Los estudios más recientes coinciden en algo: los trabajos más rutinarios serán
+  los más afectados, mientras que las tareas que requieren creatividad, trato
+  humano o decisión ética seguirán necesitando personas.</p>
+
+  <hr>
+
+  <p>La clave, según los expertos, no será competir contra la IA sino aprender a
+  usarla como herramienta. Quien sepa aprovecharla tendrá ventaja en el mercado
+  laboral de los próximos años.</p>
+
+  <br>
+  Autor: Kevin Daniel Quizhpe
+  <br>
+  Fecha: 16 de noviembre de 2026
+  <br>
+
+  <h2>Prueba de tamaños</h2>
+  <h1>Encabezado nivel 1</h1>
+  <h2>Encabezado nivel 2</h2>
+  <h3>Encabezado nivel 3</h3>
+  <h4>Encabezado nivel 4</h4>
+  <h5>Encabezado nivel 5</h5>
+  <h6>Encabezado nivel 6</h6>
+
+</body>
+</html>
+```
+
+# $\textcolor{springgreen}{\textsf{B3. Ficha de oferta Black Friday}}$
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>B3 - Oferta Black Friday</title>
+</head>
+<body>
+  <!--
+  PREGUNTA: ¿qué diferencia visual hay entre <b> y <strong>? ¿Y entre <i> y <em>?
+  RESPUESTA: visualmente casi ninguna, <b> y <strong> salen en negrita y <i> y <em>
+  en cursiva. La diferencia real es el significado: <strong> y <em> marcan
+  IMPORTANCIA o énfasis (los lectores de pantalla lo pronuncian distinto y los
+  buscadores lo entienden), mientras que <b> y <i> son solo apariencia, para
+  destacar visualmente sin dar más peso al texto (por ejemplo nombres de barcos
+  en cursiva, o palabras clave en negrita). Existen dos versiones por eso:
+  una semántica (strong/em) y una puramente visual (b/i).
+  -->
+
+  <h1>Black Friday en GadgetZone</h1>
+  <hr>
+
+  <h2>Smartphone Galaxia Ultra 5G</h2>
+  <p>El móvil más potente de la gama, con pantalla de <b>6,7 pulgadas<sup>1</sup></b>
+  y cámara de 108 megapíxeles<sup>2</sup>.</p>
+
+  <p>Precio antiguo: <del>999 €</del> → Precio Black Friday: <ins><strong>699 €</strong></ins></p>
+
+  <p>Disponible en colores <i>Titanio medianoche</i> y <i>Azul galaxia</i>.</p>
+
+  <p><em>¡Solo hasta el lunes o hasta agotar existencias!</em></p>
+
+  <p>Fórmula de la batería de litio: Li<sub>2</sub>CO<sub>3</sub>, con carga rápida
+  de 45W.</p>
+
+  <p><small>* Oferta válida solo para España. Los gastos de envío no están incluidos.
+  Consulta las condiciones completas en nuestra web.</small></p>
+
+  <p>Cámara con zoom óptico <u>5x sin pérdida de calidad</u>.</p>
+
+  <hr>
+  <p><small><sup>1</sup> Medidas en diagonal. <sup>2</sup> Resolución nominal del sensor.</small></p>
+</body>
+</html>
+```
+
+$\textcolor{springgreen}{\textsf{B4. El banner del streamer — UD2/B4}}$
+
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Kevin Daniel Quizhpe Inga">
+  <title>B4 - Banner del streamer</title>
+</head>
+<body>
+  <h1 style="background-color:lightblue;">Directo esta noche</h1>
+
+  <h2 style="text-align:center;">Estreno de temporada</h2>
+
+  <h3 style="text-align:right; background-color:limegreen;">Sorteo especial</h3>
+
+  <p style="color:red;">Recordad que el sorteo es solo para suscriptores.</p>
+
+  <p style="color:blue;">¡Activad las campanitas para no perderos nada!</p>
+
+  <p style="font-size:150%;">Empieza a las 22:00 ¡no lleguéis tarde!</p>
+</body>
+</html>
+```
+
+
 
 
