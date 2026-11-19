@@ -121,6 +121,8 @@ Deberia verse el titulo grande de `Resumen de la jornada`, despues seguiria el p
 <p>Sábado a las 18:00</p>
 
 # $\textcolor{orange}{\textsf{PARTE B EJERCICIOS GUIADOS}}$
+
+# $\textcolor{blue}{\textsf{B2. La noticia del día: ¿la IA te quitará el trabajo?}}$
 En esta parte crearemos la plantilla.html y crearemos lo siguiente
 
 
