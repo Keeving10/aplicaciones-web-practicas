@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -91,6 +92,9 @@
             <td>Sistemas operativos en Red</td>
         </tr>
     </table>
+    ```
+    
+    
     
 </body>
 </html>
