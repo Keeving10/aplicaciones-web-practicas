@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>A5 - Comentarios y anidación</title>
+<style>body{font-family:Arial,sans-serif;max-width:1050px;margin:35px auto;padding:0 18px;line-height:1.6}h1{color:#24b83d}table{border-collapse:collapse;width:100%}th,td{border:1px solid #999;padding:10px;text-align:left}pre{overflow:auto;padding:15px;background:#eee}code{background:#eee;padding:2px 4px}</style>
+</head>
+<body>
+<h1>A5 Comentarios y anidación</h1>
+<pre><code>&lt;!- Revisar el texto antes de publicar -&gt;
+&lt;p&gt;Tu contraseña debe tener &lt;strong&gt;&lt;em&gt;al menos 12
+caracteres&lt;/strong&gt;&lt;/em&gt;.&lt;/p&gt;</code></pre>
+<p>1era Linea deberia comenzar con <code>&lt;!--</code> y terminar con <code>---&gt;</code></p>
+<p>Corregido</p>
+<pre><code>&lt;!-- Revisar el texto antes de publicar --&gt;</code></pre>
+<p>2nda Linea las etiquetas deberian cerrarse en orden inverso al que se abren, es decir, primero se abre <code>&lt;strong&gt;</code></p>
+<p>y despues <code>&lt;em&gt;</code>, asi que deberia cerrarse primero <code>&lt;/em&gt;</code> y despues <code>&lt;/strong&gt;</code></p>
+<p>(extra, para ver la letra ñ se deberia poner la linea <code>&lt;meta charset=&quot;UTF-8&quot;&gt;</code>)</p>
+<p>Corregido</p>
+<pre><code>&lt;strong&gt;&lt;em&gt;al menos 12 caracteres&lt;/em&gt;&lt;/strong&gt;</code></pre>
+<p>Codigo Completo Corregido</p>
+<pre><code>&lt;!-- Revisar el texto antes de publicar --&gt;
+&lt;p&gt;Tu contraseña debe tener &lt;strong&gt;&lt;em&gt;al menos 12 caracteres&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;</code></pre>
+</body>
+</html>
